@@ -1,12 +1,3 @@
-/*import { test, expect } from '@playwright/test';
-
-test('Homepage loads successfully', async ({ page }) => {
-await page.goto('https://www.testlio.com/');
-
-await expect(page).toHaveTitle(/Testlio/i);
-});
-*/
-
 import { test, expect } from '@playwright/test';
 import { HomePage } from '../pages/HomePage';
 
